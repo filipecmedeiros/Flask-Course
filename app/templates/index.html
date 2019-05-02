@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Toilter</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    </head>
+    <body>
+        <h1>Toilter</h1>
+        <p>Bem-vindo ao Toilter {% if user %}, {{user}} {% endif %}!</p>
+
+        <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    </body>
+</html>
